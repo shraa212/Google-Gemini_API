@@ -4,7 +4,7 @@ A simple Node.js + Express application that integrates Google Gemini API to gene
 
 ---
 
-## 📌 Features:
+## Features:
 
 - Interactive chat interface
 - Fast responses using Gemini 1.5 Flash
@@ -14,7 +14,7 @@ A simple Node.js + Express application that integrates Google Gemini API to gene
 
 ---
 
-## 🛠️ Tech Stack:
+## Tech Stack:
 
 - Node.js
 - Express.js
@@ -23,7 +23,7 @@ A simple Node.js + Express application that integrates Google Gemini API to gene
 
 ---
 
-## 📁 Project Structure:
+## Project Structure:
 ```bash
 google-gemini-api/
 │── node_modules/
@@ -33,7 +33,7 @@ google-gemini-api/
 ```
 ---
 
-## ⚙️ Setup Instructions:
+## Setup Instructions:
 
 ### 1. Clone the repo:
 ```bash
@@ -57,7 +57,7 @@ Server runs at: http://localhost:3000
 
 ---
 
-### API Routes:
+## API Routes:
 - Home (UI):
   GET /
   Opens chat interface
@@ -68,7 +68,7 @@ Server runs at: http://localhost:3000
 
 ---
 
-### How It Works?
+## How It Works?
 
 - User types message in UI
 - Request sent to backend
@@ -77,7 +77,7 @@ Server runs at: http://localhost:3000
 
 ---
 
-### Notes:
+## Notes:
 
 - Keep your API key private
 - Use .env for production
