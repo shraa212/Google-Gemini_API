@@ -1,4 +1,4 @@
-# 🚀 Google Gemini API Chat App
+# 🚀 Google Gemini API Chatbot
 
 A simple Node.js + Express application that integrates Google Gemini API to generate AI responses with a clean and modern chat UI.
 
@@ -6,11 +6,11 @@ A simple Node.js + Express application that integrates Google Gemini API to gene
 
 ## 📌 Features
 
-- 💬 Interactive chat interface
-- ⚡ Fast responses using Gemini 1.5 Flash
-- 🎨 Modern glassmorphism UI
-- 🔌 Simple Express backend
-- 🌐 REST API for AI responses
+- Interactive chat interface
+- Fast responses using Gemini 1.5 Flash
+- Modern glassmorphism UI
+- Simple Express backend
+- REST API for AI responses
 
 ---
 
@@ -25,9 +25,13 @@ A simple Node.js + Express application that integrates Google Gemini API to gene
 
 ## 📁 Project Structure
 google-gemini-api/
+
 │── node_modules/
+
 │── app.js
+
 │── package.json
+
 │── package-lock.json
 
 ---
@@ -38,59 +42,38 @@ google-gemini-api/
 ```bash
 git clone https://github.com/your-username/google-gemini-api.git
 cd google-gemini-api
-2. Install dependencies
+```
+### 2. Install dependencies
+```bash
 npm install
-3. Add your API key
-
+```
+### 3. Add your API key
+```bash
 In app.js:
-
 const genAI = new GoogleGenerativeAI("YOUR_API_KEY");
-▶️ Run the Project
+```
+### 4. Run the Project
+```bash
 node app.js
+Server runs at: http://localhost:3000
+```
+## API Routes:
+- Home (UI):
+  GET /
+  Opens chat interface
+- Generate Content
+  GET /generate-content?prompt=your_text
+  Example:
+  http://localhost:3000/generate-content?prompt=Explain%20AI
 
-Server runs at:
+## How It Works?
 
-http://localhost:3000
-🌐 API Routes
-1. Home (UI)
-GET /
+- User types message in UI
+- Request sent to backend
+- Gemini API generates response
+- Response shown in chat
 
-Opens chat interface
+## Notes:
 
-2. Generate Content
-GET /generate-content?prompt=your_text
-Example:
-http://localhost:3000/generate-content?prompt=Explain%20AI
-🧠 How It Works
-
-User types message in UI
-
-Request sent to backend
-
-Gemini API generates response
-
-Response shown in chat
-
-⚠️ Notes
-
-Keep your API key private
-
-Use .env for production
-
-This is a beginner-friendly project
-
-🚀 Future Improvements
-
-Add chat memory
-
-Switch GET → POST
-
-Add authentication
-
-Store chat history
-
-Deploy online
-
-👩‍💻 Author
-
-Shravani Vetal
+- Keep your API key private
+- Use .env for production
