@@ -54,6 +54,9 @@ const genAI = new GoogleGenerativeAI("YOUR_API_KEY");
 node app.js
 Server runs at: http://localhost:3000
 ```
+
+---
+
 ### API Routes:
 - Home (UI):
   GET /
@@ -63,12 +66,16 @@ Server runs at: http://localhost:3000
   Example:
   http://localhost:3000/generate-content?prompt=Explain%20AI
 
+---
+
 ### How It Works?
 
 - User types message in UI
 - Request sent to backend
 - Gemini API generates response
 - Response shown in chat
+
+---
 
 ### Notes:
 
