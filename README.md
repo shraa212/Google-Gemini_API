@@ -15,18 +15,18 @@ A simple Node.js + Express application that integrates Google Gemini API to gene
 
 ## Setup Instructions:
 ```bash
-### 1. Clone the repo:
+1. Clone the repo:
 git clone https://github.com/your-username/google-gemini-api.git
 cd google-gemini-api
 
-### 2. Install dependencies:
+2. Install dependencies:
 npm install
 
-### 3. Add your API key:
+3. Add your API key:
 In app.js:
 const genAI = new GoogleGenerativeAI("YOUR_API_KEY");
 
-### 4. Run the Project:
+4. Run the Project:
 node app.js
 Server runs at: http://localhost:3000
 ```
