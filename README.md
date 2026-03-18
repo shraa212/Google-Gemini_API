@@ -4,16 +4,6 @@ A simple Node.js + Express application that integrates Google Gemini API to gene
 
 ---
 
-## Features:
-
-- Interactive chat interface
-- Fast responses using Gemini 1.5 Flash
-- Modern glassmorphism UI
-- Simple Express backend
-- REST API for AI responses
-
----
-
 ## Tech Stack:
 
 - Node.js
@@ -21,16 +11,6 @@ A simple Node.js + Express application that integrates Google Gemini API to gene
 - Google Generative AI SDK
 - HTML, CSS, JavaScript
 
----
-
-## Project Structure:
-```bash
-google-gemini-api/
-│── node_modules/
-│── app.js
-│── package.json
-│── package-lock.json
-```
 ---
 
 ## Setup Instructions:
@@ -54,17 +34,6 @@ const genAI = new GoogleGenerativeAI("YOUR_API_KEY");
 node app.js
 Server runs at: http://localhost:3000
 ```
-
----
-
-## API Routes:
-- Home (UI):
-  GET /
-  Opens chat interface
-- Generate Content
-  GET /generate-content?prompt=your_text
-  Example:
-  http://localhost:3000/generate-content?prompt=Explain%20AI
 
 ---
 
